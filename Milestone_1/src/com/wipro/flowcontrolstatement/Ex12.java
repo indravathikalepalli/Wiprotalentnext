@@ -2,6 +2,10 @@ package com.wipro.flowcontrolstatement;
 
 public class Ex12 {
 public static void main(String[] args) {
+	if(args.length==0) {
+		System.out.println("Please enter the month in numbers");
+	}
+	else {
 	int m= Integer.parseInt(args[0]);
 	switch(m) {
 	case 1:
@@ -41,7 +45,8 @@ public static void main(String[] args) {
 		System.out.println("December");
 		break;
 	default:
-		System.out.println("Please enter the month in numbers");
+		System.out.println("Invalid Month");
+	}
 	}
 }
 }
