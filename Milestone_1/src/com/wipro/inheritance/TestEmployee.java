@@ -2,7 +2,7 @@ package com.wipro.inheritance;
 
 public class TestEmployee {
 	public static void main(String[] args) {
-		Person p=new Person("Indravathi");
+		//Person p=new Person("Indravathi");
 		Employee e= new Employee("Indu",30000,2017,"AB15434C");
 		e.setSalary(35000);
 		e.setInsno("AA12145B");
