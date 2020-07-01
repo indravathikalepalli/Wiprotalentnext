@@ -1,5 +1,5 @@
 package com.wipro.mettl.day5;
-
+/*Of 5 numbers, how many are even or odd? */
 public class E4 {
 	int c=0;
 	if(input1%2==0){
