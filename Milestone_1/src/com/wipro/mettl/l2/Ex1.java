@@ -1,5 +1,5 @@
 package com.wipro.mettl.l2;
-
+/*Sum of Powers of Digits*/
 public class Ex1 {
 	int k=0;
 	int s=0;
